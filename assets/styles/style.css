@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0.5rem 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li:first-child {
+    background-color: rgb(0, 255, 255);
+}
+
+li:nth-child(2) {
+    background-color: rgb(138, 43, 226);
+}
+
+li:nth-child(3) {
+    background-color: rgb(127, 255, 0);
+}
+
+li:last-child {
+    background-color: rgb(238, 130, 238);
+}
+
+.first_line_paragraph {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.second_line_paragraph {
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+.first_line {
+    display: inline-block;
+    margin: 5rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.second_line {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 0, 0.7);
+}
+
+.container {
+    margin-top: 2rem;
+    background-color: rgb(238, 130, 238);
+}
+
+.container .img_track {
+    float: left;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+.container2 {
+    /* position: relative; */
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.container2 .img_track {
+    position: sticky;
+    top: 10px;
+    left: 0;
+    /* left: 10px; */
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid red;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
